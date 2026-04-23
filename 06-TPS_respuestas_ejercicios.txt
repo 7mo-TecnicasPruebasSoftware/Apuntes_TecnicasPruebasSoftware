@@ -1,0 +1,36 @@
+# =====================================================================
+# Respuestas a los ejercicios de "06-TPS_conexion_BD_01"
+# =====================================================================
+
+# =====================================================================
+# Ejercicio 1 - Tabla Employee
+# =====================================================================
+
+1. Crear una tabla de Empleados con los campos:
+CREATE TABLE Employee (
+    id       INTEGER PRIMARY KEY,
+    name     VARCHAR(100),
+    birthday DATE,
+    role     INTEGER,
+    salary   NUMERIC(8,2)
+);
+
+2. Insertar 5 datos
+INSERT INTO Employee (id, name, birthday, role, salary) VALUES
+(1, 'Joel Avila', '1995-06-22', 1, 35000.00),
+(2, 'Saul Lopez', '1990-07-25', 2, 25000.50),
+(3, 'Bryan Amador', '1978-11-05', 3, 25000.75),
+(4, 'Mariani Catalina', '1995-01-18', 4, 28000.00),
+(5, 'Daniela Avelar', '1982-09-30', 5, 19000.99);
+
+3. Mostrar los datos de la tabla Empleados
+SELECT * FROM employee;
+
+4. Mostrar los datos de la tabla Empleados que cumplan con un sueldo menor a $20,000
+SELECT id, name, birthday, role, salary FROM Employee WHERE salary < 20000;
+
+
+
+
+
+
