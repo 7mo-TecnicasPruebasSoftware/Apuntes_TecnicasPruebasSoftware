@@ -26,6 +26,14 @@
 # Ejercicio 06 - Buscador de casos de prueba críticos
 # =====================================================================
 
-Ejercicio 07: Generador de Reporte "Limpieza de datos"
+# =====================================================================
+# Ejercicio 07: Generador de Reporte "Limpieza de datos"
+# =====================================================================
 
+<<<<<<<< HEAD:01-TPS_respuestas.txt
 Ejercicio 08: Simulación de Pila de Deshacer (*Undo*)
+========
+# =====================================================================
+# Ejercicio 08: Simulación de Pila de Deshacer (*Undo*)
+# =====================================================================
+>>>>>>>> 4e43b10 (add Respuestas):Respuestas/01-TPS_resumen_python_01.txt
